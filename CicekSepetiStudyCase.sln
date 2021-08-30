@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docker Compose", "Docker Compose", "{CCA90A5F-36E1-4388-A10C-D0E5ECD198B2}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiStudyCase.API", "CicekSepetiStudyCase.API\CicekSepetiStudyCase.API.csproj", "{A70BCDD0-FAED-47BC-BE39-9402AF40CA14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiStudyCase.Manager", "CicekSepetiStudyCase.Application\CicekSepetiStudyCase.Manager.csproj", "{89892274-B25F-4635-89B1-07092F367B03}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiStudyCase.Domain", "CicekSepetiStudyCase.Domain\CicekSepetiStudyCase.Domain.csproj", "{5257055F-9447-421A-BF32-846D5848F77F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiStudyCase.Infrastructure", "CicekSepetiStudyCase.Infrastructure\CicekSepetiStudyCase.Infrastructure.csproj", "{45D79E0A-B719-4564-AB3B-2846C285DE29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CicekSepetiStudyCase.Shared", "CicekSepetiStudyCase.Shared\CicekSepetiStudyCase.Shared.csproj", "{2E001C44-E135-4F22-B929-3D0DAA08A680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A70BCDD0-FAED-47BC-BE39-9402AF40CA14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70BCDD0-FAED-47BC-BE39-9402AF40CA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70BCDD0-FAED-47BC-BE39-9402AF40CA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70BCDD0-FAED-47BC-BE39-9402AF40CA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89892274-B25F-4635-89B1-07092F367B03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89892274-B25F-4635-89B1-07092F367B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89892274-B25F-4635-89B1-07092F367B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89892274-B25F-4635-89B1-07092F367B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5257055F-9447-421A-BF32-846D5848F77F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5257055F-9447-421A-BF32-846D5848F77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5257055F-9447-421A-BF32-846D5848F77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5257055F-9447-421A-BF32-846D5848F77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D79E0A-B719-4564-AB3B-2846C285DE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D79E0A-B719-4564-AB3B-2846C285DE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D79E0A-B719-4564-AB3B-2846C285DE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D79E0A-B719-4564-AB3B-2846C285DE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E001C44-E135-4F22-B929-3D0DAA08A680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E001C44-E135-4F22-B929-3D0DAA08A680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E001C44-E135-4F22-B929-3D0DAA08A680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E001C44-E135-4F22-B929-3D0DAA08A680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A40CC048-2F82-4F27-BB31-AE8E3D3BAA6F}
+	EndGlobalSection
+EndGlobal
